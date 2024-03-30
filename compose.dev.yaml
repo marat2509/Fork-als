@@ -1,0 +1,7 @@
+services:
+  als:
+    build: .
+    container_name: als
+    ports:
+      - 80:80
+    restart: unless-stopped
